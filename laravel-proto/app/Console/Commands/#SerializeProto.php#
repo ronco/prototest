@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+
+class SerializeProto extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+n     * @var string
+     */
+    protected $signature = 'app:serialize-proto';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Command description';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle()
+    {
+        print_r('hello world');
+    }
+}
